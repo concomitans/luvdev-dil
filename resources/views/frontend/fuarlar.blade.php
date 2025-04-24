@@ -1,0 +1,58 @@
+@extends('frontend.layout.master')
+@section('meta')
+    <meta name="description" content="Fuarlar Açıklama">
+    <meta name="keywords" content="Kurumsal Anahtar Kelimeler">
+    <title>Luvian Machinery | Fuarlar</title>
+@endsection
+@section('content')
+
+
+
+    <div class="container">
+    <ol class="breadcrumb">
+        <li><a href="fuarlar">fuarlar</a></li>
+         <li><a href="fuarlar">basında biz</a></li>
+        <li><a href="index">anasayfa</a></li>
+    </ol>
+    </div>
+
+    <div class="container">
+        <div class="col-md-3 sidebar-baslik">
+            <div class="sidebar-baslik">
+                Luvian Machinery
+            </div>
+            <ul>
+                <li class="active"><a href="fuarlar">Fuarlar</a></li>
+                <li class="passive"><a href="haberler">Haberler</a></li>
+            </ul>
+
+        </div>
+<div class="col-md-8 col-md-offset-1 sayfa-icerik">
+
+    <h3 class="sayfa-baslik">
+        Fuarlar
+    </h3>
+    <p>
+    </p>
+</div>
+    </div>
+
+@endsection
+@section('js')
+@endsection
+@section('css')
+    <link href="frontend/_css/layerslider.css" rel="stylesheet">
+    <link href="frontend/_css/util.carousel.css" rel="stylesheet">
+    <link href="frontend/_css/util.carousel.skins.css" rel="stylesheet">
+    <link href="frontend/urunslide/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="frontend/urunslide/css/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="frontend/urunslide/css/animate.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="frontend/urunslide/rs-plugin/css/settings.css" />
+    <link rel="stylesheet" type="text/css" href="frontend/urunslide/css/rev-style.css" />
+    <link href="frontend/urunslide/owl-carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="frontend/urunslide/owl-carousel/assets/owl.theme.default.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="frontend/urunslide/css/yamm.css" rel="stylesheet" type="text/css" />
+    <link href="frontend/urunslide/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css" />
+    <link href="frontend/urunslide/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+
+@endsection
